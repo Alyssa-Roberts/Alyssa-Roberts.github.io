@@ -1,1 +1,70 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* HERO */
+.hero {
+  height: 80vh;
+  background-image: url("images/hero.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+}
+
+/* ABOUT */
+.about {
+  display: flex;
+  padding: 60px;
+  gap: 40px;
+}
+
+.about img {
+  width: 200px;
+  border-radius: 5px;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  border: 2px solid black;
+  text-decoration: none;
+  color: black;
+  margin-top: 20px;
+}
+
+/* PROJECTS */
+.projects {
+  background-color: #8fa67b; /* your green */
+  color: white;
+  padding: 60px;
+}
+
+.project-scroll {
+  display: flex;
+  gap: 30px;
+  overflow-x: auto;
+  padding-bottom: 20px;
+}
+
+.project-card {
+  min-width: 300px;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 5px;
+}
 
