@@ -11,12 +11,10 @@ body {
   background-repeat: no-repeat;
 }
 
-.hero h1 {
-  font-size: 3rem;
-}
-
-.hero h2 {
-  font-size: 2rem;
+.hero-title {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  text-align: center;
 }
 
 /* ABOUT */
