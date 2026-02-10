@@ -5,15 +5,10 @@ body {
 
 /* HERO */
 .hero {
-  height: 80vh;
-  background-image: url("hero.png");
+  background-image: url("images/leaves.png");
   background-size: cover;
   background-position: center;
-  color: white;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  background-repeat: no-repeat;
 }
 
 .hero h1 {
