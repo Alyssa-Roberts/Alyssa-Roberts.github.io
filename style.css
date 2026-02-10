@@ -19,18 +19,6 @@ body {
 
 /* ABOUT */
 
-.about-title {
-  font-family: "Trebuchet MS", sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.about-body {
-  font-family: "Trebuchet MS", sans-serif;
-  font-size: 14px;
-  line-height: 1.6;
-}
-
 .about {
   padding: 60px 10%;
 }
@@ -80,27 +68,6 @@ body {
   margin-bottom: 15px;
 }
 
-
-
-.profile-pic {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;   /* prevents stretching */
-  border-radius: 50%;  /* makes it a circle */
-}
-
-.resume-button {
-  display: inline-block;
-  margin-top: 15px;
-  padding: 10px 22px;
-  border: 2px solid #000;
-  border-radius: 999px;
-  text-decoration: none;
-  font-weight: 600;
-  color: #000;
-  background: transparent;
-  transition: all 0.2s ease;
-}
 
 .resume-button:hover {
   background: #000;
