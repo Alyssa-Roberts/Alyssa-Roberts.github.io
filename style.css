@@ -43,13 +43,22 @@ body {
   border-radius: 50%;  /* makes it a circle */
 }
 
-.button {
+.resume-button {
   display: inline-block;
-  padding: 12px 24px;
-  border: 2px solid black;
+  margin-top: 15px;
+  padding: 10px 22px;
+  border: 2px solid #000;
+  border-radius: 999px;
   text-decoration: none;
-  color: black;
-  margin-top: 20px;
+  font-weight: 600;
+  color: #000;
+  background: transparent;
+  transition: all 0.2s ease;
+}
+
+.resume-button:hover {
+  background: #000;
+  color: #fff;
 }
 
 /* PROJECTS */
