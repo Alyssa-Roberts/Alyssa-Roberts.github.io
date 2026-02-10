@@ -41,6 +41,13 @@ body {
   border-radius: 5px;
 }
 
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;   /* prevents stretching */
+  border-radius: 50%;  /* makes it a circle */
+}
+
 .button {
   display: inline-block;
   padding: 12px 24px;
