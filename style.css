@@ -31,6 +31,57 @@ body {
   line-height: 1.6;
 }
 
+.about {
+  padding: 60px 10%;
+}
+
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.about-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;      /* prevents stretching */
+  border-radius: 50%;     /* makes it a circle */
+}
+
+.resume-button {
+  margin-top: 20px;
+  padding: 10px 28px;
+  border: 2px solid black;
+  border-radius: 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.resume-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.about-right h2 {
+  font-size: 28px;   /* bigger than body, smaller than title */
+  margin-bottom: 15px;
+}
+
+.about-right p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+
+
 .profile-pic {
   width: 150px;
   height: 150px;
