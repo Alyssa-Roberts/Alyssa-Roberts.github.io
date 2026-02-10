@@ -31,14 +31,9 @@ body {
   line-height: 1.6;
 }
 
-.about img {
-  width: 200px;
-  border-radius: 5px;
-}
-
 .profile-pic {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;   /* prevents stretching */
   border-radius: 50%;  /* makes it a circle */
 }
